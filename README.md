@@ -1,12 +1,6 @@
----
-title: FitCheck
----
+# FitCheck legal
 
-# FitCheck
-
-Legal documents for the FitCheck app for iOS.
+Legal documents for the FitCheck app for iOS, published at https://bakhrom861.github.io/fitcheck-legal/
 
 - [Privacy Policy](privacy.md)
 - [Terms of Use](terms.md)
-
-Contact: [bakhrom86157@icloud.com](mailto:bakhrom86157@icloud.com)
