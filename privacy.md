@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # FitCheck Privacy Policy
 
-Effective date: October 7, 2026
+Effective date: October 8, 2026
 
 FitCheck is an iOS app that keeps a digital wardrobe, builds outfits from it, and uses AI to rate outfits and show how they would look on you. This policy explains what information the app handles, where it goes, and what you can do about it.
 
@@ -33,7 +33,7 @@ This information stays on your device unless one of the features described below
 
 ### AI features
 
-When you use an AI feature, the app sends the data that feature needs to our AI processing provider, kie.ai. The features are outfit rating (Fit Check), clothing recognition when you add an item, colour analysis of your selfie, AI outfit suggestions, and AI try-on.
+When you use an AI feature, the app sends the data that feature needs to our server, which passes it on to our AI processing provider, kie.ai. The features are outfit rating (Fit Check), clothing recognition when you add an item, colour analysis of your selfie, AI outfit suggestions, and AI try-on.
 
 Depending on the feature, the data sent may include:
 
@@ -49,6 +49,17 @@ For the AI model to read a photo, the photo is uploaded to a temporary file host
 Photos of your face and body are personal, and you decide whether to share them. The selfie and the full-length photo are optional, and the app works without them.
 
 The AI provider processes this data on our behalf to return a result. Its own handling of data is described in its privacy policy at [kie.ai](https://kie.ai).
+
+### Our server
+
+AI requests go through a server we run, so that the key to the AI service is never stored in the app. The server does not keep your photos, your wardrobe or the answers it passes back. It keeps:
+
+- a random token that identifies your installation of the app, created the first time an AI feature is used. It is not tied to your name, email address or Apple ID;
+- the internet address the installation was registered from, to limit abuse;
+- a daily count of how many AI requests the installation has made, to enforce usage limits;
+- the web addresses of the photos uploaded for AI processing, for up to three days, so that only the installation that uploaded a photo can use it.
+
+Server request logs, which include internet addresses, are kept for a short time for troubleshooting.
 
 ### Weather
 
@@ -93,7 +104,7 @@ We share information only with the service providers named above, and only as fa
 - Deleting the app removes all data the app stored on the device.
 - Photos uploaded for AI processing are deleted from the temporary file host after 24 hours.
 
-Because the app has no accounts, we hold no copy of your wardrobe or profile on our own servers and cannot look up or restore your data.
+Because the app has no accounts, we hold no copy of your wardrobe or profile on our own servers and cannot look up or restore your data. What our server does keep is described under "Our server" above.
 
 ## Children
 
